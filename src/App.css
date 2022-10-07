@@ -1,38 +1,513 @@
-.App {
+.select {
+  height: 80px;
+  margin-top: 20px;
+}
+
+.icon_whatsapp {
+  font-size: 38px;
+  color: #25D366;
+  background-color: white;
+  padding: 4px 10px 10px 10px;
+  border-radius: 50px;
+}
+
+.icon_whatsapp:hover {
+  font-size: 40px;
+  color: #25D366;
+
+}
+
+.icon_telegram {
+  font-size: 38px;
+  color: #0088cc;
+  background-color: white;
+  padding: 4px 10px 10px 10px;
+  border-radius: 50px;
+}
+
+.icon_telegram:hover {
+  font-size: 40px;
+  color: #0088cc;
+}
+
+.getmassage {
+  height: 5px;
+}
+
+.score {
+  font-size: 24px;
   text-align: center;
+  margin-top: 20px !important;
+  margin: auto;
+  background-color: white;
+  color: #8397cf;
+  width: 150px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button_select {
+  border: 0 solid;
+  background-color: #00000000 !important;
+  margin-right: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imoje {
+  font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.rock {
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.home_text_1 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.home_text_2 {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 50px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home_text_3 {
+  text-align: center;
+  font-size: 22px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.div_button_start {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.button_start {
+  background-color: #00000000 !important;
+  border: white 3px solid !important;
+  color: white !important;
+  font-weight: 600;
+  border-radius: 0% !important;
+  font-size: 20px;
+}
+
+.button_start:hover {
+  background-color: white !important;
+  border: white 3px solid !important;
+  color: #c0aed2 !important;
+  font-weight: 600;
+  border-radius: 0% !important;
+  font-size: 20px;
+}
+
+.div_button_replay {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 36px;
+}
+
+.button_replay {
+  font-size: 22px;
+  color: white !important;
+}
+
+.lll {
+  text-align: center;
+  background-color: #8397cf;
+  margin-top: auto;
+  padding: 8px;
+  color: white;
+}
+
+.text_footer {
+  margin-bottom: 24px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.titles {
+  font-size: 20px;
+  margin-top: 26px;
+  margin-bottom: 10px;
+  color: #8397cf;
+  font-weight: 600;
+}
+
+.text {
+  color: white;
+  font-weight: 500;
+}
+
+.link {
+  border: #156993 2px solid;
+  border-radius: 13px;
+}
+
+.button_link {
+  border-radius: 0px 0px 0px 0px !important;
+  border: white 3px solid !important;
+  color: white !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button_link:hover {
+  color: #8397cf !important;
+  background-color: white !important;
+  outline: 0 !important;
+}
+
+.button_link:focus {
+  color: #8397cf !important;
+  background-color: white !important;
+  outline: 0 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.form-control {
+  border-radius: 0px 0px 0px 0px !important;
+  border: white 3px solid !important;
+  color: #8397cf !important;
+}
+
+.status {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 120px;
+}
+
+.select_titles {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.select_button {
+  text-align: center;
+  height: 120px;
+}
+
+.select_status {
+  font-size: 60px !important;
+}
+
+.spinner-border {
+  --bs-spinner-width: 3rem !important;
+  --bs-spinner-height: 3rem !important;
+  --bs-spinner-vertical-align: -0.125em;
+  --bs-spinner-border-width: 0.10em;
+  --bs-spinner-animation-speed: 1.50s;
+  --bs-spinner-animation-name: spinner-border;
+  border: var(--bs-spinner-border-width) solid currentcolor;
+  border-right-color: transparent;
+  color: white !important;
+}
+
+.tooltip>div.tooltip-inner {
+  background-color: #8397cf !important;
+  color: white !important;
+}
+
+.massage {
+  font-size: 24px;
+  text-align: center;
+}
+
+.button_emoji {
+  background-color: #00000000 !important;
+  padding: 0px 0px 0px 0px !important;
+  font-size: 20px;
+  border: #0088cc 0 solid !important;
+}
+
+.number_score {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.toast {
+  --bs-toast-padding-x: 0.2rem !important;
+  --bs-toast-padding-y: 0.2rem !important;
+  --bs-toast-spacing: 1.5rem !important;
+  --bs-toast-border-width: 0px !important;
+  --bs-toast-max-width: 0px !important;
+}
+
+.right {
+  position: relative;
+  background: white;
+  text-align: right;
+  min-width: 45%;
+  padding: 0px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  float: right;
+  margin-top: 12px;
+}
+
+.right::before {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: -1px;
+  right: -10px;
+  border: 10px solid transparent;
+  border-top: 10px solid #ccc;
+}
+
+.right::after {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: 0px;
+  right: -8px;
+  border: 10px solid transparent;
+  border-top: 10px solid white;
+  clear: both;
+}
+
+.left {
+  position: relative;
+  background: #DCF8C6;
+  text-align: right;
+  min-width: 45%;
+  padding: 0px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  float: right;
+  margin-top: 12px;
+}
+
+.left::before {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: -1px;
+  left: -10px;
+  border: 10px solid transparent;
+  border-top: 10px solid #ccc;
+}
+
+.left::after {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: 0px;
+  left: -8px;
+  border: 10px solid transparent;
+  border-top: 10px solid #DCF8C6;
+  clear: both;
+}
+
+.since {
+  margin-top: 15px;
+}
+
+.social {
+  margin-top: 5px;
+}
+
+.connect_titles {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.connect_titles2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.select_1 {
+  font-size: 26px;
+  text-align: center;
+}
+
+.select_2 {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.send_text {
+  background-color: white !important;
+  padding: 0px 10px 0px 10px !important;
+  font-size: 20px;
+  border: white 2px solid !important;
+  color: #a5b6e4 !important;
+  margin-top: 18px;
+}
+
+.select_div {
+  margin-top: 60px
+}
+
+.div_emoji {
+  width: 170px !important;
+  border: #a5b6e4 2px solid;
+}
+
+@media only screen and (min-width: 800px) {
+  .rock {
+    max-width: 100%;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .send_text {
+    font-size: 26px;
   }
+
+  .left {
+    align-items: left;
+    margin-top: 22px;
+  }
+
+  .button_emoji {
+    font-size: 24px;
+  }
+
+  .left {
+    margin-right: 150px;
+  }
+
+  .score {
+    margin-top: 50px !important;
+    font-size: 26px;
+    background-color: white;
+    color: #8397cf;
+    margin: auto;
+    width: 150px;
+  }
+
+  .Sendmassage {
+    text-align: right;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+
+  .select {
+    height: 90px;
+    margin-top: 20px;
+  }
+
+  .select_2 {
+    margin-top: 0px;
+  }
+
+  .connect_titles {
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  .home_text_1 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 0px;
+    font-weight: 600;
+  }
+
+  .home_text_2 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .home_text_3 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .Home {
+    margin-bottom: 20px;
+  }
+
+  .since {
+    margin-top: 30px;
+  }
+
+  .social {
+    margin-top: 10px;
+  }
+
+  .select_div {
+    margin-top: 120px
+  }
+
+  .select_titles {
+    margin-top: 40px;
+  }
+
+  .massage {
+    font-size: 32px;
+  }
+
+  .div_emoji {
+    width: 150px;
+    border: #a5b6e4 2px solid;
+  }
+}
+
+.App {
+  background-image: linear-gradient(45deg, #a5b6e4, #dbadc9);
+}
+
+.await {
+  font-size: 18px;
+}
+
+.Connect {
+  text-align: center;
+}
+
+.button_social {
+  border-radius: 50% !important;
+  background-color: white;
+  color: #8397cf;
+  font-size: 20px;
+}
+
+.home_footer {
+  background-color: white;
+  color: #8397cf;
+}
+
+.connect_head {
+  margin-top: 70px;
+}
+
+.connect_url {
+  margin-top: 10px;
+}
+
+.connect_icon {
+  height: 50px;
+}
+
+.text_score {
+  font-size: 20px;
+}
+
+.number {
+  font-size: 20px;
 }
