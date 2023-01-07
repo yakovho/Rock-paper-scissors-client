@@ -6,7 +6,7 @@ import Select from './select'
 import '../App';
 import Swal from 'sweetalert2';
 
-const socket = io('https://rock-peper-server.herokuapp.com/')
+const socket = io('https://rps-server1.onrender.com/')
 
 function Room() {
     const [opponentSelect, setopponentSelect] = useState()
